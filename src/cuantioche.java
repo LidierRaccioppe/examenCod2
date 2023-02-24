@@ -43,6 +43,13 @@ public class cuantioche {
                                         System.out.println("Horror");
                                 }
                                 break;
+                        case RAICES:
+                                try{
+                                        result=(float) Math.pow(num1, 1/num2);
+                                }catch (Exception e){
+                                        System.out.println("Horror");
+                                }
+                                break;
                         default:
                                 System.out.println("opcion incorrecta");
                 }
