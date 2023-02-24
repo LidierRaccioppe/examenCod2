@@ -13,6 +13,7 @@ public class cuantioche {
                 final String DIVIDIR= "dividir";
                 final String SUMAR= "sumar";
                 final String RESTAR= "restar";
+                final String RAICES= "raiz";
                 switch (option){
                         case MULTIPLICAR:
                                 try{
@@ -38,6 +39,13 @@ public class cuantioche {
                         case RESTAR:
                                 try{
                                         result=num1-num2;
+                                }catch (Exception e){
+                                        System.out.println("Horror");
+                                }
+                                break;
+                        case RAICES:
+                                try{
+                                        result=(float) Math.pow(num1, 1/num2);
                                 }catch (Exception e){
                                         System.out.println("Horror");
                                 }
