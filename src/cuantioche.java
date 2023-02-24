@@ -13,6 +13,7 @@ public class cuantioche {
                 final String DIVIDIR= "dividir";
                 final String SUMAR= "sumar";
                 final String RESTAR= "restar";
+                final String RAICES= "raiz";
                 switch (option){
                         case MULTIPLICAR:
                                 try{
